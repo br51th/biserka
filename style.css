@@ -67,15 +67,15 @@ a {
 .mini {
     background-position: center;
     background-size: cover;
-    height: 200px;
-    width: 200px;
+    height: 590px;
+    width: 1024px;
 }
 
 .large {
     background-position: center;
     background-size: cover;
-    height: 550px;
-    width: 550px;
+    height: 300px;
+    width: 300px;
 }
 
 .mikki {
@@ -176,7 +176,7 @@ a {
     bottom: 0;
     left: 0;
     z-index: 0;
-    background: rgba(0,0,0,0.7);
+    background: rgba(255, 255, 255, 0.25);
     pointer-events: none;
 }
 
@@ -192,6 +192,9 @@ a {
     margin: auto;
     padding: 0 5px;
     background: #FFF;
+    width: 500px;
+    height: 500px;
+
 }
 
 .ModalFull {
@@ -203,7 +206,7 @@ a {
 }
 
 
-/* slider */
+/* slider
 
 .cssSlider {
 	display: block;
@@ -231,13 +234,13 @@ a {
 	width: 100%;
 	height: auto;
 }
-/*
-.cssSlider .slides > li:first-child:not(:target) {
-	z-index: 1;
-	-webkit-transform: translateY(0%);
-	        transform: translateY(0%);
-}
-*/
+
+   <!-- .cssSlider .slides > li:first-child:not(:target) {
+	    z-index: 1;
+	    -webkit-transform: translateY(0%);
+	         transform: translateY(0%);
+    } -->
+
 .cssSlider .thumbnails {
 	display: block;
 	position: relative;
@@ -308,3 +311,4 @@ a {
 		        transform: translateX(100%);
 	}
 }
+*/
